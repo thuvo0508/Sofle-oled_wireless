@@ -3,7 +3,7 @@ layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, CAPSLOCK, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
     Z, X, C, V, B, ESC, DELETE, N, M, ',', ., /, '=', LCTRL, LEFT WIN, LEFT ALT, lower, SPACE, ENTER, default, '[', ']', \]
   lower:
-  - {t: ▽, type: trans}
+  - ESC
   - F1
   - F2
   - F3
@@ -39,7 +39,7 @@ layers:
   - (
   - )
   - '|'
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - '='
   - '-'
   - KP PLUS
@@ -53,13 +53,13 @@ layers:
   - ':'
   - \
   - {t: ▽, type: trans}
+  - LCTRL
   - {t: ▽, type: trans}
+  - HOME
+  - {t: END, type: held}
+  - SPACE
+  - ENTER
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - UP ARROW
+  - DOWN ARROW
   - {t: ▽, type: trans}
