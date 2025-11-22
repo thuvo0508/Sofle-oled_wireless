@@ -54,12 +54,12 @@ layers:
   - \
   - {t: ▽, type: trans}
   - LCTRL
-  - {t: ▽, type: trans}
-  - HOME
-  - {t: END, type: held}
+  - LEFT ARROW
+  - LEFT ALT
+  - {t: RIGHT ARROW, type: held}
   - SPACE
   - ENTER
   - {t: ▽, type: trans}
   - UP ARROW
   - DOWN ARROW
-  - {t: ▽, type: trans}
+  - T
