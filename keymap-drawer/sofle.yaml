@@ -38,7 +38,7 @@ layers:
   - KP MULTIPLY
   - (
   - )
-  - '|'
+  - \
   - LEFT SHIFT
   - '='
   - '-'
@@ -51,15 +51,15 @@ layers:
   - ']'
   - ;
   - ':'
-  - \
-  - {t: ▽, type: trans}
+  - DOWN ARROW
+  - T
   - LCTRL
   - LEFT ARROW
   - LEFT ALT
-  - {t: RIGHT ARROW, type: held}
+  - {type: held}
   - SPACE
   - ENTER
-  - {t: ▽, type: trans}
+  - RIGHT
+  - HOME
+  - END
   - UP ARROW
-  - DOWN ARROW
-  - T
